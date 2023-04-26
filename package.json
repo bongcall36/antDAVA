@@ -1,0 +1,24 @@
+{
+  "name": "parcelDefault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@antv/ava": "^3.0.2",
+    "@antv/ava-react": "^3.1.0",
+    "@antv/g2plot": "^2.4.29",
+    "antd": "^5.4.5",
+    "insert-css": "^2.0.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "rimraf dist && parcel public/index.html --open",
+    "build": "rimraf dist && parcel build public/index.html --dist-dir dist"
+  }
+}
